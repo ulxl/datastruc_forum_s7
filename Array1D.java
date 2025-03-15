@@ -1,15 +1,15 @@
 public class Array1D {
     public static void main(String[] args) {
-        // Deklarasi dan inisialisasi langsung
+        // deklarasi 
         int[] numbers = {10, 20, 30, 40, 50};
         
-        // Menampilkan isi array
+        // print isi array
         System.out.println("Isi array:");
         for(int num : numbers) {
             System.out.println(num);
         }
         
-        // Menampilkan panjang array
+        // print panjang array
         System.out.println("Panjang array: " + numbers.length);
     }
 }
